@@ -3,7 +3,7 @@ const listEl = document.getElementById("#list")
 console.log("inizio ciclo")
 // 1) stampare in console i numeri da 1 a 100
 
-for (i=1; i<=100; i++){
+for (let i=1; i<=100; i++){
     
     const listItemEl = document.createElement("li");
     listItemEl.classList.add("box");
