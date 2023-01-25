@@ -1,4 +1,4 @@
-const listEl = document.getElementById("#list")
+const listEl = document.getElementById("list")
 
 console.log("inizio ciclo")
 // 1) stampare in console i numeri da 1 a 100
