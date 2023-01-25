@@ -14,16 +14,13 @@ for (let i=1; i<=100; i++){
         console.log("FizzBuzz")
         listItemEl.classList.add("fizzBuzzBox")
     }
-
-    if(i % 3 == 0){
-
+    else if (i % 3 == 0) {
         console.log("fizz");
         listItemEl.classList.add("fizzBox")
-
-    } else if(i % 5 == 0){
+    } else if (i % 5 == 0) {
         console.log("buzz");
         listItemEl.classList.add("buzzBox")
-    } else{
+    } else {
         console.log(i);
         liClasses = "box"
     }
