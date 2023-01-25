@@ -7,6 +7,7 @@ for (let i=1; i<=100; i++){
     
     const listItemEl = document.createElement("li");
     listItemEl.classList.add("box");
+    listItemEl.innerHTML = i
 
 // 2) numeri divisibili per 3 FIZZ per 5 BUZZ e per entrambi FIZZBUZ
     if (i % 3 == 0 && i % 5 == 0) {
